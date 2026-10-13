@@ -1,0 +1,7 @@
+experiment_name,timestamp,model_type,accuracy,precision,recall,f1,roc_auc,baseline_roc_auc,num_features,warning_needed,artifact_path,log_path,tuning_method,trials,n_estimators,max_depth,min_samples_leaf,notes,f1_score,experiment_type
+deposit_prediction_v1_decision_tree,2026-10-13T12:51:25.517147,DecisionTreeClassifier,0.7946561108362197,0.807556080283353,0.7307692307692307,0.7672462142456534,0.870320315884832,0.55,37.0,False,,,,,,,,,,
+deposit_prediction_v1_logreg,2026-10-13T12:51:30.088494,LogisticRegression,0.8312716476991588,0.823721436343852,0.8087606837606838,0.8161725067385445,0.9065855291661744,0.55,37.0,False,,,,,,,,,,
+deposit_prediction_rf_gridsearch_final,2026-10-13T12:52:12.911688,RandomForestClassifier_in_Pipeline,0.8431469569520039,0.823721436343852,0.8087606837606838,,,0.914,37.0,False,,,,,,,,,,
+deposit_prediction_gb_gridsearch_final,2026-10-13T12:56:34.210643,GradientBoostingClassifier_in_Pipeline,,,,,,0.923,37.0,False,,,,,,,,,,
+deposit_prediction_rf_optuna_v1,2026-10-13T13:09:16.826660,RandomForestClassifier,,,,0.8437375236208775,0.9159291425420458,,,False,models/rf_optuna_final_v1.pkl,models/rf_optuna_log_v1.json,Optuna (TPE),40.0,200.0,27.0,2.0,min_samples_leaf=2 сохраняет редкие VIP-сегменты,,
+stacking_top12_final,2026-10-13T13:09:29.381763,StackingClassifier,0.859,,,0.852,0.925,,12.0,False,,,,,,,,"Топ-12 признаков по важности RF. В списке и balance, и balance_log. Preprocessor пересобран под новый набор. ROC-AUC вырос на 0.001 относительно полного набора (37 фич).",0.852,reduced

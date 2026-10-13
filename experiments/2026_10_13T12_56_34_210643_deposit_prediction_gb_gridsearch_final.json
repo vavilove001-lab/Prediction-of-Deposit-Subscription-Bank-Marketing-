@@ -1,0 +1,71 @@
+{
+  "experiment_name": "deposit_prediction_gb_gridsearch_final",
+  "timestamp": "2026-10-13T12:56:34.210643",
+  "random_state": 42,
+  "params": {
+    "model_type": "GradientBoostingClassifier_in_Pipeline",
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "n_estimators": 300
+    },
+    "cv_folds": 5,
+    "scoring": "f1",
+    "random_state": 42,
+    "n_features": 37
+  },
+  "metrics": {
+    "best_cv_f1": 0.8569059583744097,
+    "test_f1": 0.8453930244664237,
+    "test_roc_auc": 0.9227834889125212,
+    "test_accuracy": 0.8530430479960416
+  },
+  "features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome",
+    "age_group",
+    "has_previous_contact",
+    "has_success_previous",
+    "never_contacted_before",
+    "recent_contact",
+    "long_call",
+    "is_high_balance",
+    "is_low_balance",
+    "balance_log",
+    "job_marital",
+    "risk_profile_flag",
+    "has_default",
+    "has_housing",
+    "has_loan",
+    "is_end_of_month",
+    "is_hot_month",
+    "is_peak_deposit_month",
+    "is_low_deposit_month",
+    "many_contacts",
+    "first_contact_campaign",
+    "marital_edu_target"
+  ],
+  "baseline_roc_auc": 0.923,
+  "artifact_path": null,
+  "versions": {
+    "numpy": "1.24.2",
+    "pandas": "2.0.1",
+    "sklearn": "1.2.2"
+  },
+  "warning_needed": false
+}
