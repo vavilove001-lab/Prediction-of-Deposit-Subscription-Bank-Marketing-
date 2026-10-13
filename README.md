@@ -154,7 +154,7 @@ notebooks/classification.ipynb
 ---
 ## Результаты и выводы
 * Распределение возрастов относительноцелевой переменной
-![](experiments\eda_Age_VS_deposit\plots\20261013_125122_Age_VS_deposit.png)
+![](experiments/eda_Age_VS_deposit/plots/20261013_125122_Age_VS_deposit.png)
 * Распределение категориальных признаков
 ![](experiments\eda_cat_features\plots\20261013_125119_hist_box_all.png)
 * Сбалансированность классов целевой переменной
