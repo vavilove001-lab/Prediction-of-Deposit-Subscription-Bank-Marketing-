@@ -63,7 +63,7 @@ Project-4_Clean/
 |
 ├── models/                             # Сохраненная модель 
 |   ├── model.pkl                       # Модель 
-|   └── summary.csv                     # Лог модели
+|   └── model.json                      # Лог модели
 ├── notebooks/                          # Jupyter Notebook с основным пайплайном 
 │   └── classification.ipynb 
 |
@@ -134,7 +134,7 @@ Project-4_Clean/
 ## Установка проекта
 
 ```
-git clone https://github.com/vavilove001-lab/NYC-Taxi-Trip-Duration-Prediction
+git clone https://github.com/vavilove001-lab/Prediction-of-Deposit-Subscription-Bank-Marketing-
 ```
 
 ---
@@ -142,14 +142,14 @@ git clone https://github.com/vavilove001-lab/NYC-Taxi-Trip-Duration-Prediction
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/vavilove001-lab/NYC-Taxi-Trip-Duration-Prediction
+   git clone https://github.com/vavilove001-lab/Prediction-of-Deposit-Subscription-Bank-Marketing-
    cd trip-duration-prediction
 2. Install dependencies:
     ```bash
     pip install -r requirements.txt
 3. Download data files (see data/README.md) and place them in data/
 4. Run the notebook:
-notebooks/trip_duration_prediction.ipynb
+notebooks/classification.ipynb
 
 ---
 ## Результаты и выводы
