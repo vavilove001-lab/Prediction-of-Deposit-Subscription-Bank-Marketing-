@@ -156,21 +156,21 @@ notebooks/classification.ipynb
 * Распределение возрастов относительноцелевой переменной
 ![](experiments/eda_Age_VS_deposit/plots/20261013_125122_Age_VS_deposit.png)
 * Распределение категориальных признаков
-![](experiments\eda_cat_features\plots\20261013_125119_hist_box_all.png)
+![](experiments/eda_cat_features/plots/20261013_125119_hist_box_all.png)
 * Сбалансированность классов целевой переменной
-![](experiments\eda_class_balance\plots\20261013_125106_class_distribution.png)
+![](experiments/eda_class_balance/plots/20261013_125106_class_distribution.png)
 * Распределение рода деятельности относительно целевой переменной
-![](experiments\eda_job_VS_deposit\plots\20261013_125123_job_VS_deposit.png)
+![](experiments/eda_job_VS_deposit/plots/20261013_125123_job_VS_deposit.png)
 * Распределение семейного положения и уровня образования относительно целевой переменной
-![](experiments\eda_marital_education_heatmaps\plots\20261013_125124_marital_edu_heatmap.png)
+![](experiments/eda_marital_education_heatmaps/plots/20261013_125124_marital_edu_heatmap.png)
 * Тепловая карта распределения признаков семейного положения и обучения относительно таргета
-![](experiments\eda_marital_education_heatmaps\plots\20261013_125124_marital_edu_heatmap.png)
+![](experiments/eda_marital_education_heatmaps/plots/20261013_125124_marital_edu_heatmap.png)
 * Влияние результатов маркетинговой кампании относительно результатов прошлой кампании
-![](experiments\eda_marketing_campaign_VS_poutcome\plots\20261013_125122_marketing_campaign_VS_poutcome.png)
+![](experiments/eda_marketing_campaign_VS_poutcome/plots/20261013_125122_marketing_campaign_VS_poutcome.png)
 * Распределение отказов открыть депозит по месяцам
-![](experiments\eda_no_deposit_VS_month\plots\20261013_125122_no_deposit_VS_month.png)
+![](experiments/eda_no_deposit_VS_month/plots/20261013_125122_no_deposit_VS_month.png)
 * Распределение числовых признаков
-![](experiments\eda_num_features\plots\20261013_125111_hist_box_all.png)
+![](experiments/eda_num_features/plots/20261013_125111_hist_box_all.png)
 
 ## Результаты экспериментов
 
